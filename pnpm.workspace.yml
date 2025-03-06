@@ -1,0 +1,3 @@
+packages:
+  - 'packages/*'  # 包含所有 packages 目录下的包
+  - 'app/*'      # 包含所有 apps 目录下的应用
