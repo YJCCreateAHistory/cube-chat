@@ -1,0 +1,31 @@
+/* 隐藏滚动条 */
+::-webkit-scrollbar {
+  display: none; /* 隐藏滚动条 */
+}
+
+/* 或者 */
+body {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE 和 Edge */
+}
+
+body::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+  background-color: #000000;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
